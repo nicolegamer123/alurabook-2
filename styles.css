@@ -1,0 +1,31 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+
+body {
+    background-color: var (--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+h1 {
+    background-color: darkblue;
+}
+:root {
+    --cor-de-fundo: #4169E1;
+    --branco: #00BFFF;
+    --laranja: #FF1493;
+    --azul-degrade: linear-gradient(97.54deg, #00008B 35.49%, #4B0082 165.37%);
+    --fonte-principal:"Playwrite England SemiJoined" ;
+    --azul: #4169E1;
+    --fonte-secundario: "Josefin Sans";
+    --preto: #000000;
+    --cinza: #474646;
+  --cinza-claro: #858585;
+}
+
+ 
